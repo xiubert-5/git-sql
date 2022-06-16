@@ -13,6 +13,7 @@ public class test2 {
         hero.add("蜘蛛侠");
         hero.add("埼玉");
         hero.add("蝙蝠侠");
+        hero.add("月光骑士");
         System.out.println(hero);
 
     }
