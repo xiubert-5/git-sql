@@ -9,12 +9,9 @@ public class test2 {
         int[] arr = {1,23,32,44,11,44,23,323,44,3};
         Arrays.sort(arr);
         System.out.println(binarySearch(arr, 44));
-        Collection<Integer> hero = new ArrayList<>();
-        hero.add(1);
-        System.out.println(hero);
-        System.out.println(hero);
-        hero.clear();
-        hero.add(2);
+        Collection<String> hero = new ArrayList<>();
+        hero.add("蜘蛛侠");
+        hero.add("埼玉");
         System.out.println(hero);
 
     }
