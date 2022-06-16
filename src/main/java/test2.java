@@ -12,6 +12,7 @@ public class test2 {
         Collection<String> hero = new ArrayList<>();
         hero.add("蜘蛛侠");
         hero.add("埼玉");
+        hero.add("蝙蝠侠");
         System.out.println(hero);
 
     }
