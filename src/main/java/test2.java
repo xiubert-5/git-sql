@@ -1,4 +1,6 @@
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collection;
 
 public class test2 {
     public static void main(String[] args) {
@@ -7,6 +9,9 @@ public class test2 {
         int[] arr = {1,23,32,44,11,44,23,323,44,3};
         Arrays.sort(arr);
         System.out.println(binarySearch(arr, 44));
+        Collection<Integer> hero = new ArrayList<>();
+        hero.add(1);
+        System.out.println(hero);
 
     }
 
