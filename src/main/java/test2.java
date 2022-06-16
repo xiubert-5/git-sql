@@ -12,11 +12,6 @@ public class test2 {
         Collection<Integer> hero = new ArrayList<>();
         hero.add(1);
         System.out.println(hero);
-        System.out.println(hero);
-        hero.clear();
-        hero.add(2);
-        System.out.println(hero);
-
     }
 
     /**
